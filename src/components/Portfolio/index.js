@@ -29,7 +29,7 @@ const Portfolio = () => {
         <img
           src={port.cover}
           className="portfolio-image"
-          alt="portfolio"
+          alt=" "
         />
         <div className="content">
           <p className="title">{port.title}</p>
