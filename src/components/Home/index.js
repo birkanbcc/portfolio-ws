@@ -4,6 +4,7 @@ import LogoTitle from '../../assets/images/logo-s.png';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import Logo from './Logo'
+import { gsap } from 'gsap';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['i', 'r', 'k', 'a', 'n', '.']
