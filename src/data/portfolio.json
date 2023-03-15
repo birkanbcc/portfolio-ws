@@ -3,7 +3,7 @@
     {
         "cover": "/portfolio/bccfoto.png",
         "title": "Project 1",
-        "description": "React, Material UI, Stripe, Formik Yup,  {'\n'} Strapi and Redux Toolkit",
+        "description": "React, Material UI, Stripe, Formik, Strapi, Redux Toolkit",
         "url": "https://neon-pudding-239799.netlify.app/"
     }
    

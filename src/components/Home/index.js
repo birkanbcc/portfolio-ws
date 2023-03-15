@@ -4,6 +4,7 @@ import LogoTitle from '../../assets/images/logo-s.png';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import Logo from './Logo'
+
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['i', 'r', 'k', 'a', 'n', '.']
@@ -53,9 +54,12 @@ const Home = () => {
         </h1>
         <h2>Front-End Developer / React.js Fan </h2>
         <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+        
      </div>
      <Logo />
+    
     </div>
+   
     <loader type="pacman" />
     </>
     );
